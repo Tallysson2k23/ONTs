@@ -17,20 +17,23 @@ import onts from './data/onts.json';
 /* 🔹 MAPA DE IMAGENS OFFLINE
    O nome AQUI precisa bater com o campo "imagem" do JSON */
 const imagens: Record<string, any> = {
-  'zte_h3601p.jpg': require('./assets/images/zte_h3601p.jpg'),
-  'huawei_hs8545m5.jpg': require('./assets/images/huawei_hs8545m5.jpg'),
-  'nokia.jpg': require('./assets/images/nokia.jpg'),
-  'mitrastar_2541.jpg': require('./assets/images/mitrastar_2541.jpg'),
-  'mitrastar_asky.jpg': require('./assets/images/mitrastar_asky.jpg'),
-  'fiberhome.jpg': require('./assets/images/fiberhome.jpg'),
-  'zte_admin.jpg': require('./assets/images/zte_admin.jpg'),
-  'movistar.jpg': require('./assets/images/movistar.jpg'),
-  'mitrastar_8115.jpg': require('./assets/images/mitrastar_8115.jpg'),
-  'tim.jpg': require('./assets/images/tim.jpg'),
-  'shoreline.jpg': require('./assets/images/shoreline.jpg'),
-  'askey.jpg': require('./assets/images/askey.jpg'),
-  'huawei_hg8245q2.jpg': require('./assets/images/huawei_hg8245q2.jpg'),
+  'zte_h3601p.jpg': require('../assets/images/zte_h3601p.jpg'),
+  'GPON_Home_Gateway.jpg': require('../assets/images/GPON_Home_Gateway.jpg'),
+  'HUAWEI_HS8545M5.jpeg': require('../assets/images/HUAWEI_HS8545M5.jpg'),
+  'NOKIA_NOVA_INTERFACE.jpeg': require('../assets/images/NOKIA_NOVA_INTERFACE.jpeg'),
+  'MITRASTAR_2541.jpeg': require('../assets/images/MITRASTAR_2541.jpeg'),
+  'MITRASTAR_ASKY.jpeg': require('../assets/images/MITRASTAR_ASKY.jpeg'),
+  'FIBER_HOME.jpeg': require('../assets/images/FIBER_HOME.jpeg'),
+  'ZTE.jpeg': require('../assets/images/ZTE.jpeg'),
+
+
+
+
+
+
 };
+
+
 
 export default function Home() {
   const [ipInput, setIpInput] = useState('');
@@ -66,27 +69,21 @@ export default function Home() {
     <View style={styles.container}>
       {/* BOTÃO PESQUISA */}
       <View style={styles.topButtons}>
-        <TouchableOpacity
-          style={styles.green}
-          onPress={() => setShowPesquisa(!showPesquisa)}
-        >
-          <Text style={styles.btnText}>🔍 Pesquisa de IP</Text>
-        </TouchableOpacity>
+<TouchableOpacity
+  style={styles.green}
+  onPress={() => Linking.openURL('https://base-nine-liard.vercel.app/#')}
+>
+  <Text style={styles.btnText}>ACESSOS DAS ONTs</Text>
+</TouchableOpacity>
+
       </View>
 
       {/* PESQUISA IP */}
       {showPesquisa && (
         <View style={styles.pesquisaBox}>
-          <TextInput
-            placeholder="ex: 192.168.1.1"
-            style={styles.input}
-            value={ipInput}
-            onChangeText={setIpInput}
-          />
+      
 
-          <TouchableOpacity style={styles.blue} onPress={gerarLinks}>
-            <Text style={styles.btnText}>Gerar links</Text>
-          </TouchableOpacity>
+         
         </View>
       )}
 
