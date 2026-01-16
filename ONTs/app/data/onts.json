@@ -1,0 +1,118 @@
+[
+  {
+    "modelo": "ZTE ZXHN H3601P",
+    "ip": "192.168.12.1",
+    "imagem": "zte_h3601p.jpg", 
+    "interfaces": [
+      { "login": "multipro", "senha": "@1GaR!Z/3" }
+    ]
+  },
+  {
+    "modelo": "GPON Home Gateway",
+    "ip": "192.168.1.254",
+    "interfaces": [
+      { "login": "AdminGPON", "senha": "ALC#FGU" }
+    ]
+  },
+  {
+    "modelo": "HUAWEI HS8545M5",
+    "ip": "192.168.18.1",
+    "interfaces": [
+      { "login": "Epadmin", "senha": "adminEp" }
+    ]
+  },
+  {
+    "modelo": "NOKIA – Nova Interface",
+    "ip": "192.168.1.254",
+    "interfaces": [
+      { "login": "AdminGPON", "senha": "ALC#FGU" },
+      { "login": "Wi-Fi", "senha": "12345678" }
+    ]
+  },
+  {
+    "modelo": "MITRASTAR 2541",
+    "ip": "192.168.10.1/config",
+    "interfaces": [
+      { "login": "support", "senha": "netgo2020" },
+      { "login": "support", "senha": "8tg6w2b7q8" },
+      { "login": "support", "senha": "lima!@#123" }
+    ]
+  },
+  {
+    "modelo": "MITRASTAR ASKY",
+    "ip": "192.168.10.1/config",
+    "interfaces": [
+      { "login": "support", "senha": "netgo2020" },
+      { "login": "support", "senha": "lima!@#123" }
+    ]
+  },
+  {
+    "modelo": "FIBER HOME",
+    "ip": "192.168.1.1/login.html",
+    "interfaces": [
+      { "login": "admin", "senha": "%0|F?H@f!berhO3e" }
+    ]
+  },
+  {
+    "modelo": "ZTE (Admin / Multipro)",
+    "ip": "192.168.1.1",
+    "interfaces": [
+      { "login": "multipro", "senha": "multipro" },
+      { "login": "admin", "senha": "Onitel030201" },
+      { "login": "admin", "senha": "admin" }
+    ]
+  },
+  {
+    "modelo": "MOVISTAR",
+    "ip": "192.168.1.1",
+    "interfaces": [
+      { "login": "ONT", "senha": "lima!@#123" },
+      { "login": "ONT", "senha": "8tg6w2b7q8" }
+    ]
+  },
+  {
+    "modelo": "MITRASTAR 8115",
+    "ip": "192.168.10.1",
+    "interfaces": [
+      { "login": "support", "senha": "8tg6w2b7q8" },
+      { "login": "support", "senha": "lima!@#123" }
+    ]
+  },
+  {
+    "modelo": "TIM",
+    "ip": "192.168.1.1/login.html",
+    "interfaces": [
+      { "login": "admin", "senha": "atrás da ONT" }
+    ]
+  },
+  {
+    "modelo": "SHORELINE",
+    "ip": "192.168.1.1",
+    "interfaces": [
+      { "login": "admin", "senha": "Rede.com139250" }
+    ]
+  },
+  {
+    "modelo": "ASKEY",
+    "ip": "192.168.10.1",
+    "interfaces": [
+      { "login": "support", "senha": "Netwf040417" }
+    ]
+  },
+  {
+    "modelo": "HUAWEI HG8245Q2",
+    "ip": "192.168.100.1",
+    "interfaces": [
+      { "login": "superadmin", "senha": "HW@root123" },
+      { "login": "telecomadmin", "senha": "admintelecom" }
+    ]
+  },
+  {
+    "modelo": "NOKIA",
+    "ip": "192.168.1.1",
+    "interfaces": [
+      { "login": "telecomadmin", "senha": "admintelecom" },
+      { "login": "admin", "senha": "admin" }
+    ]
+  }
+]
