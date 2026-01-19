@@ -13,3 +13,6 @@ npm install -g eas-cli
 eas login
 eas build:configure
 eas build -p android --profile preview
+
+login: Tallysson_Dev
+Senha: 21060006 
